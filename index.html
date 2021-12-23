@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Math stuff</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Untitled drawing.png">
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Welcome to the math site</h1>
+        <noscript>You don't have Javascript enabled.</noscript>
+        <h2>Random Number Generator</h2>
+        <h3 id="result"></h3>
+        <button class="button" onclick="random()">Generate</button>
+
+        <h2>Prime Number Generator</h2>
+        <a href="https://en.wikipedia.org/wiki/Prime_number"><p>What are primes?</p></a>
+        <h3 id="para"></h3>
+        <button class="button" onclick="iterate()">Find Primes</button>
+
+        <h2>Circle Area</h2>
+        <h3>Enter Radius</h3>
+        <input type="input" id="inpu1">
+        <br>
+        <br>
+        <button class="button" onclick="area()">Find Area</button>
+        <br>
+        <br>
+        <p id="1p"></p>
+
+        <h2>HCF</h2>
+        <h3>Enter Numbers</h3>
+        <input type="input" id="input1">
+        <input type="input" id="input2">
+        <br>
+        <br>
+        <button class="button" onclick="findHCF()">Find HCF</button>
+
+        <!--button class="button" onclick="multiArrayIteration()">Find HCF</button-->
+        
+        <br>
+        <br>
+        <p id="hcf"></p>
+
+        <h2>String to Unicode</h2>
+        <h3>Enter String</h3>
+        <input type="input" id="unicode">
+        <br>
+        <br>
+        <button class="button" onclick="convertToUnicode()">Convert String</button>
+        <br>
+        <br>
+        <p id="out"></p>
+
+        <h2>Show Powers of 2</h2>
+        <h3>Enter End Limit</h3>
+        <input type="number" id="power2input">
+        <br>
+        <br>
+        <button class="button" onclick="power2()">Get powers of 2</button>
+        <br>
+        <br>
+        <p id="power2x"></p>
+
+        <h2>Generate a random 64-digit string</h2>
+        <br>
+        <button class="button" onclick="makeID(64)">Generate</button>
+        <br>
+        <br>
+        <p id="32ID"></p>
+    </body>
+</html>
